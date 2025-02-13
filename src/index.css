@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1e4bbb;
+  --background: #f8fafc;
+  --text: #1e293b;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+}
+
+[data-theme="dark"] {
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --background: #0f172a;
+  --text: #f8fafc;
+  --card-bg: #1e293b;
+  --border: #334155;
+}
