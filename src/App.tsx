@@ -145,7 +145,7 @@ function App() {
                       {courseResults.map((course, index) => (
                         <tr
                           key={index}
-                          className="hover:bg-[var(--primary-hover)] hover:bg-opacity-5 transition-colors duration-200"
+                          //className="hover:bg-[var(--primary-hover)] hover:bg-opacity-5 transition-colors duration-200"
                         >
                           <td className="p-4 border-b border-[var(--border)]">{course.semesterId}</td>
                           <td className="p-4 border-b border-[var(--border)]">{course.customCourseId}</td>
