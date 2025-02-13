@@ -147,7 +147,7 @@ function App() {
                           key={index}
                           //className="hover:bg-[var(--primary-hover)] hover:bg-opacity-5 transition-colors duration-200"
                         >
-                          <td className="p-4 border-b border-[var(--border)]">{course.semesterId}</td>
+                          <td className="p-4 border-b border-[var(--border)]">{course.semesterName}</td>
                           <td className="p-4 border-b border-[var(--border)]">{course.customCourseId}</td>
                           <td className="p-4 border-b border-[var(--border)]">{course.courseTitle}</td>
                           <td className="p-4 border-b border-[var(--border)]">{course.totalCredit}</td>
