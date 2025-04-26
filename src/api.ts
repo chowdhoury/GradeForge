@@ -13,7 +13,7 @@ import { StudentInfo, CourseResult } from './types';
 
 export async function fetchCourseResults(studentId: string): Promise<CourseResult[]> {
   const semesters = [
-    "251"
+    "243"
   ];
 
   let allResults: CourseResult[] = [];
