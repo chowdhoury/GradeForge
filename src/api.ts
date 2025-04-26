@@ -13,9 +13,7 @@ export async function fetchStudentInfo(studentId: string): Promise<StudentInfo> 
 
 export async function fetchCourseResults(studentId: string): Promise<CourseResult[]> {
   const semesters = [
-    "181", "182", "183", "191", "192", "193", "201", "202", "203",
-    "211", "212", "213", "221", "222", "223", "231", "232", "233",
-    "241", "243"
+    "251"
   ];
 
   let allResults: CourseResult[] = [];
