@@ -37,8 +37,8 @@ function App() {
     setError(null);
     
     try {
-      const info = await fetchStudentInfo(studentId);
-      setStudentData(info);
+      // const info = await fetchStudentInfo(studentId);
+      // setStudentData(info);
       
       const results = await fetchCourseResults(studentId);
       setCourseResults(results);
