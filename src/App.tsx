@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { GraduationCap, Moon, Sun } from 'lucide-react';
-import { StudentInfo } from './types';
-import { fetchStudentInfo, fetchCourseResults } from './api';
+//import { StudentInfo } from './types';
+import { fetchCourseResults } from './api';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 function App() {
