@@ -1,15 +1,15 @@
 // api.ts
 import { StudentInfo, CourseResult } from './types';
 
-export async function fetchStudentInfo(studentId: string): Promise<StudentInfo> {
+// export async function fetchStudentInfo(studentId: string): Promise<StudentInfo> {
 
-  const response = await fetch(`/api/studentInfo?studentId=${studentId}`);
-  if (!response.ok) {
-    throw new Error(`Error fetching student info: ${response.statusText}`);
+//   const response = await fetch(`/api/studentInfo?studentId=${studentId}`);
+//   if (!response.ok) {
+//     throw new Error(`Error fetching student info: ${response.statusText}`);
 
-  }
-  return response.json();
-}
+//   }
+//   return response.json();
+// }
 
 export async function fetchCourseResults(studentId: string): Promise<CourseResult[]> {
   const semesters = [
